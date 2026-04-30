@@ -6,24 +6,55 @@
 
 
 body{
-    background-color: #1e1e1e;
+    display: flex;
+    /* background-color: #1e1e1e; */
+    justify-content: center;
+    height: 2500px;
+    background: linear-gradient(to bottom, rgb(21, 21, 21), rgb(55, 55, 55));
 }
 
 
 .Container1{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items: flex-start;
+    height: 100%;
+    width: 90%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 100px; 
+}
+.Block{
+    height: 500px;
     width: 500px;
-    border: 5px solid #fff;
+    display: flex;
+    flex-direction: column;
+    
+   
 }
 
+.Text{
+    font-size: 40px;
+    color: #b0b0b0;
+    text-align: center;
+    margin-top: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
 
+.Text:hover{
+    color: #fff;
+    text-decoration: underline;
+}
 
 .Image{
-    width: 250px;
-    height: 250px;
+    width: 500px;
+    height: 500px;
     border: rgb(48, 48, 48) 7px solid;
     background: #5e5e5e;
 }
+
+
+
